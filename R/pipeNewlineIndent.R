@@ -12,7 +12,7 @@ pipeNewlineIndent <- function(){
 
   if(sum(context$selection[[1]]$range$end -
          context$selection[[1]]$range$start) > 0){
-    #Non-empy selection. Just insert the assign and newline.
+    #Non-empy selection. Just insert the pipe and newline.
     rstudioapi::insertText(paste0("%>%\n", strrep(" ",indent_conext)))
   }else{
     if(grepl(pattern = '\\s$', context$contents[context_row])){
