@@ -11,3 +11,7 @@ I'm still experiemnting with the best key combos. I suggest `CTRL ,` and `CTRL .
 The main advantage of developing these as addins is that the editor API can be used to get the correct indent level. The indent follows the expectations set by the RStudio auto-indent feature - so you won't notice or appreciate the work being done :P
 
 Enjoy!
+
+##Installation
+1. Get the package: `devtools::install_github("milesmcbain/mufflr")`
+2. Set the keyboard shortcuts using **Tools** -> **Addins** -> **Browse Addins** -> **Keyboard Shortcuts...**
