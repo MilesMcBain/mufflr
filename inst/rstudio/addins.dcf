@@ -1,0 +1,9 @@
+Name: Insert <-\n
+Description: Inserts <- and a newline at the cursor position.
+Binding: assignNewlineIndent
+Interactive: false
+
+Name: Insert %>%\n
+Description: Inserts %>% and a newline at the cursor position.
+Binding: pipeNewlineIndent
+Interactive: false
