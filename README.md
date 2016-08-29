@@ -1,6 +1,6 @@
 # mufflr: Making your pipes quieter.
 
-So far this package contains two RStudio addins that allow you to assign a keyboard shortcuts to:
+So far this package contains two RStudio addins that allow you to assign keyboard shortcuts to:
 
 * `<space if needed> <- <newline><indent>`
 * `<space if needed> %>% <newline><indent>`
@@ -14,4 +14,4 @@ Enjoy!
 
 ##Installation
 1. Get the package: `devtools::install_github("milesmcbain/mufflr")`
-2. Set the keyboard shortcuts using **Tools** -> **Addins** -> **Browse Addins** -> **Keyboard Shortcuts...**
+2. Set the keyboard shortcuts using **Tools** -> **Addins** -> **Browse Addins**, then click **Keyboard Shortcuts...**
