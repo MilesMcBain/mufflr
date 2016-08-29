@@ -4,7 +4,7 @@ Version: 0.0.0.9000
 Authors@R: person("Miles", "McBain", email = "miles.mcbaint@gmail.com", role = c("aut", "cre"))
 Description: Addins for building pipe chains in rstudio. Can pipe/assign + nelwine + correct indent.
 Depends:
-    R (>= 3.3.1)
+    R (>= 3.3.0)
 Imports:
     dplyr (>= 0.5.0),
     rstudioapi (>= 0.6)
