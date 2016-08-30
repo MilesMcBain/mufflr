@@ -2,11 +2,11 @@
 % Please edit documentation in R/assignNewlineIndent.R
 \name{assignNewlineIndent}
 \alias{assignNewlineIndent}
-\title{Insert ' <- newline'.}
+\title{assignNewlineIndent}
 \usage{
 assignNewlineIndent()
 }
 \description{
-Call this function as an addin to insert and assignment and newline at the cursor position.
+Call this function as an addin to insert an assignment (<-) and newline at the cursor position with an extra indent level.
 }
 

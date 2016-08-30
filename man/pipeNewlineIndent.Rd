@@ -2,11 +2,11 @@
 % Please edit documentation in R/pipeNewlineIndent.R
 \name{pipeNewlineIndent}
 \alias{pipeNewlineIndent}
-\title{Insert ' %<% newline'.}
+\title{pipeNewlineIndent}
 \usage{
 pipeNewlineIndent()
 }
 \description{
-Call this function as an addin to insert a pipe and newline at the cursor position.
+Call this function as an addin to insert pipe and newline at the cursor position. Respects your indents.
 }
 

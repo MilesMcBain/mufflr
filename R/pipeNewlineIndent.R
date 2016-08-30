@@ -1,15 +1,16 @@
-#' Insert ' %<% newline'.
-#'
-#' Call this function as an addin to insert a pipe and newline at the cursor position.
+#' pipeNewlineIndent
+#' @description Call this function as an addin to insert pipe and newline at the cursor position. Respects your indents.
+#' @return NULL
 #' @export
 #'
 pipeNewlineIndent <- function(){
+  SPACE_PREF <- .rs.readUiPref('num_spaces_for_tab')
 
   context <- rstudioapi::getActiveDocumentContext()
   context_row <- context$selection[[1]]$range$end["row"]
   indent_context <- regexec(pattern = "\\w", context$contents[context_row])[[1]][1]-1 #match pos of the first word -1
   if(indent_context < 0 )indent_context <- nchar(context$contents[context_row]) #we found only whitespace, stay at this level.
-  if(indent_context == 0)indent_context <- 2 #we are at 0 indent, this is the only time we want to add indent with %>%
+  if(indent_context == 0)indent_context <- SPACE_PREF #we are at 0 indent, this is the only time we want to add indent with %>%
 
   if(sum(context$selection[[1]]$range$end -
          context$selection[[1]]$range$start) > 0){
