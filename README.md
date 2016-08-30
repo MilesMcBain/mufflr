@@ -15,3 +15,6 @@ Enjoy!
 ##Installation
 1. Get the package: `devtools::install_github("milesmcbain/mufflr")`
 2. Set the keyboard shortcuts using **Tools** -> **Addins** -> **Browse Addins**, then click **Keyboard Shortcuts...**
+
+##Usage
+![Vrroom!](https://raw.githubusercontent.com/milesmcbain/mufflr/master/inst/media/mufflr.gif)
